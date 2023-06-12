@@ -26,7 +26,9 @@ Getting Started
 
 
 4 Open docker-compose.yml using a text editor and add the following configuration:
+
 5 Save and close the docker-compose.yml file.
+
 6 Start the containers using Docker Compose:
     docker-compose up -d
 
