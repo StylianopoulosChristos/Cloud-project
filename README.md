@@ -8,10 +8,28 @@ Prerequisites
 
 Before getting started with this project, ensure that you have the following prerequisites installed:
 
-    Docker: Installation Guide
-    Docker Compose: Installation Guide
-    MySQL [Installation Guide](https://www.cyberciti.biz/faq/installing-mysql-server-on-ubuntu-22-04-lts-linux/)
+    Docker: https://docs.docker.com/get-docker/
+    Docker Compose: https://docs.docker.com/compose/
+    MySQL https://www.cyberciti.biz/faq/installing-mysql-server-on-ubuntu-22-04-lts-linux/
 
 Getting Started
 
-Clone the project repository:
+1 Clone the project repository:
+    git clone https://github.com/your-username/mysql-replicate.git
+
+2 Change into the project directory:
+    cd mysql-replicate
+
+
+3 Create a Docker Compose configuration file:
+    pluma docker-compose.yml
+
+
+4 Open docker-compose.yml using a text editor and add the following configuration:
+5 Save and close the docker-compose.yml file.
+6 Start the containers using Docker Compose:
+    docker-compose up -d
+
+
+   
+
